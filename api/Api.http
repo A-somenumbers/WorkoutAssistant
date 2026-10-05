@@ -1,5 +1,61 @@
 @Api_HostAddress = http://localhost:5054
 
+### Get all exercises sorted by name
+GET {{Api_HostAddress}}/api/exercises
+Accept: application/json
+
+###
+
+### Get chart points for an exercise
+GET {{Api_HostAddress}}/api/exercises/1/progress
+Accept: application/json
+
+###
+
+### Get chart points for an unknown exercise
+GET {{Api_HostAddress}}/api/exercises/999999/progress
+Accept: application/json
+
+###
+
+### Get workout history, newest first
+GET {{Api_HostAddress}}/api/workouts
+Accept: application/json
+
+###
+
+### Get one workout with its sets
+GET {{Api_HostAddress}}/api/workouts/1
+Accept: application/json
+
+###
+
+### Create a workout with sets
+POST {{Api_HostAddress}}/api/workouts
+Content-Type: application/json
+
+{
+  "date": "2026-10-05",
+  "notes": "Upper body",
+  "sets": [
+    {
+      "exerciseId": 1,
+      "setOrder": 1,
+      "reps": 8,
+      "weight": 135
+    },
+    {
+      "exerciseId": 1,
+      "setOrder": 2,
+      "reps": 6,
+      "weight": 145
+    }
+  ]
+}
+
+###
+
+### Weather forecast sample endpoint
 GET {{Api_HostAddress}}/weatherforecast/
 Accept: application/json
 

@@ -26,7 +26,7 @@ public record SetDto(
     int Id,
     int ExerciseId,
     string ExerciseName,
-    int SetOrder,
+    int SetNumber,
     int Reps,
     double Weight);
 
