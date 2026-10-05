@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\aadim\\Workout\\api\\Api.csproj": {}
+    "C:\\Users\\aadim\\Workout\\api\\Api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\aadim\\Workout\\api\\Api.csproj": {
+    "C:\\Users\\aadim\\Workout\\api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\aadim\\Workout\\api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\aadim\\Workout\\api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "c:\\Users\\aadim\\Workout\\api\\Api.csproj",
+        "projectPath": "C:\\Users\\aadim\\Workout\\api\\Api.csproj",
         "packagesPath": "C:\\Users\\aadim\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\aadim\\Workout\\api\\obj\\",
+        "outputPath": "C:\\Users\\aadim\\Workout\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aadim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,14 @@
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.9, )"
             }
