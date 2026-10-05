@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TiQRJjbkkFM=",
+  "dgSpecHash": "FmN33egVzeY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aadim\\Workout\\Backend\\Backend.csproj",
+  "projectFilePath": "c:\\Users\\aadim\\Workout\\api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aadim\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.9\\microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
     "C:\\Users\\aadim\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aadim\\Workout\\Backend\\Backend.csproj": {}
+    "c:\\Users\\aadim\\Workout\\api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aadim\\Workout\\Backend\\Backend.csproj": {
+    "c:\\Users\\aadim\\Workout\\api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aadim\\Workout\\Backend\\Backend.csproj",
-        "projectName": "Backend",
-        "projectPath": "C:\\Users\\aadim\\Workout\\Backend\\Backend.csproj",
+        "projectUniqueName": "c:\\Users\\aadim\\Workout\\api\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "c:\\Users\\aadim\\Workout\\api\\Api.csproj",
         "packagesPath": "C:\\Users\\aadim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aadim\\Workout\\Backend\\obj\\",
+        "outputPath": "c:\\Users\\aadim\\Workout\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aadim\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -80,11 +80,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aadim\\Workout\\Backend\\Backend.csproj",
-      "projectName": "Backend",
-      "projectPath": "C:\\Users\\aadim\\Workout\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\aadim\\Workout\\api\\Api.csproj",
+      "projectName": "Api",
+      "projectPath": "C:\\Users\\aadim\\Workout\\api\\Api.csproj",
       "packagesPath": "C:\\Users\\aadim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aadim\\Workout\\Backend\\obj\\",
+      "outputPath": "C:\\Users\\aadim\\Workout\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aadim\\AppData\\Roaming\\NuGet\\NuGet.Config",
